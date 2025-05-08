@@ -9,8 +9,8 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: 'kids Learning app',
-      description: 'A deep learning model that generates unique images based on text prompts using GAN architecture.',
-      techStack: ['Python', 'TensorFlow', 'Flask', 'React'],
+      description: 'Developed an interactive learning app for kindergarten students using Python (Pandas, NumPy, Matplotlib, Tkinter), MySQL, and VS Code. The project focused on learning GUI concepts and database integration.',
+      techStack: ['Python', 'TKinter', 'MySQL', 'VS Code'],
       githubLink: '#',
       demoLink: '#',
       imageUrl: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80'

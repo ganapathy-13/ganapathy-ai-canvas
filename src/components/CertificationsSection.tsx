@@ -11,6 +11,18 @@ const CertificationsSection = () => {
       issuer: 'IBM Cognitive Class',
       date: 'January 2023',
       credentialLink: '#',
+      description: 'Comprehensive training in statistical methods and analysis, covering probability, hypothesis testing, and regression analysis.'},
+    {
+      title: 'Python for Data Science and AI',
+      issuer: 'IBM Cognitive Class',
+      date: 'January 2023',
+      credentialLink: '#',
+      description: 'Comprehensive training in statistical methods and analysis, covering probability, hypothesis testing, and regression analysis.'
+    },{
+      title: 'Statistics 101',
+      issuer: 'IBM Cognitive Class',
+      date: 'January 2023',
+      credentialLink: '#',
       description: 'Comprehensive training in statistical methods and analysis, covering probability, hypothesis testing, and regression analysis.'
     }
   ];
