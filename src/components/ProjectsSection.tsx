@@ -72,10 +72,6 @@ const ProjectsSection = () => {
                   <Github size={16} />
                   <a href={project.githubLink} target="_blank" rel="noopener noreferrer">Code</a>
                 </Button>
-                <Button variant="default" size="sm" className="bg-ai-teal hover:bg-ai-teal/90 flex items-center gap-1">
-                  <ExternalLink size={16} />
-                  <a href={project.demoLink} target="_blank" rel="noopener noreferrer">Demo</a>
-                </Button>
               </CardFooter>
             </Card>
           ))}
