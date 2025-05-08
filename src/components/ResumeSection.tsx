@@ -7,9 +7,9 @@ const ResumeSection = () => {
   return (
     <section id="resume" className="bg-ai-teal text-white py-20">
       <div className="container-custom text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">Want to Know More About My Experience?</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-6">Want to Know More About Me?</h2>
         <p className="text-lg mb-8 max-w-2xl mx-auto">
-          Download my resume to learn more about my educational background, work experience, 
+          Download my resume to learn more about my educational background, skills, 
           and the projects I've worked on.
         </p>
         <Button 

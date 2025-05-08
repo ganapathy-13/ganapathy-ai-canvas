@@ -25,7 +25,7 @@ const ProjectsSection = () => {
       title: 'Automated Timetable Generator',
       description: 'Designed an AI-powered timetable scheduling system for educational institutions. Implemented optimization techniques to minimize scheduling conflicts and ensure efficient resource allocation.',
       techStack: ['Python', 'Flask', 'Bcrypt', 'SQLite',''],
-      githubLink: '#',
+      githubLink: 'https://github.com/ganapathy-13/timetable_project-',
       imageUrl: 'htps://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80'
     },
     {
@@ -33,7 +33,6 @@ const ProjectsSection = () => {
       description: 'IoT application that integrates with smart home devices for centralized control and automation.',
       techStack: ['Python', 'Node.js', 'MQTT', 'React Native'],
       githubLink: '#',
-      demoLink: '#',
       imageUrl: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80'
     }
   ];
