@@ -17,7 +17,7 @@ const ProjectsSection = () => {
     {
       title: 'Voice-up App',
       description: 'A web app for citizens to file and track complaints, with AI-powered features for chat support and complaint categorization. It includes user authentication, complaint prioritization, status tracking, and an admin dashboard. ',
-      techStack: ['Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'.],
+      techStack: ['Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
       githubLink: '',
       imageUrl: 'https://blog.ipleaders.in/wp-content/uploads/2020/10/Right-to-Information-Act-2005-1.jpg'
     },
