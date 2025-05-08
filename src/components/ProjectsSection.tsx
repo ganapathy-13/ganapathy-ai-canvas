@@ -8,7 +8,7 @@ import { Github, ExternalLink } from 'lucide-react';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: 'AI Image Generator',
+      title: 'kids Learning app',
       description: 'A deep learning model that generates unique images based on text prompts using GAN architecture.',
       techStack: ['Python', 'TensorFlow', 'Flask', 'React'],
       githubLink: '#',
