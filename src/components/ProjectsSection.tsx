@@ -16,17 +16,17 @@ const ProjectsSection = () => {
       imageUrl: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80'
     },
     {
-      title: 'Sentiment Analysis Tool',
-      description: 'An NLP-based tool that analyzes text to determine sentiment and emotional tone in customer feedback.',
-      techStack: ['Python', 'NLTK', 'Scikit-learn', 'Flask'],
+      title: 'TranslateAuto',
+      description: 'Built an AI-based translator app capable of real-time multilingual text translation using Python (sklearn, Scipy, Scikit-learn), HTML/CSS, Webpack, and Git. The app leverages NLP techniques for efficient language processing.',
+      techStack: ['Python', 'scipy','VS Code', 'Scikit-learn', 'Flask'],
       githubLink: '#',
       demoLink: '#',
       imageUrl: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80'
     },
     {
-      title: 'Personal Finance Dashboard',
-      description: 'A dashboard to track expenses, income, and financial goals with data visualization and insights.',
-      techStack: ['JavaScript', 'React', 'D3.js', 'Firebase'],
+      title: 'Automated Timetable Generator',
+      description: 'Designed an AI-powered timetable scheduling system for educational institutions. Implemented optimization techniques to minimize scheduling conflicts and ensure efficient resource allocation.',
+      techStack: ['Python', 'Flask', 'Bcrypt', 'SQLite',''],
       githubLink: '#',
       demoLink: '#',
       imageUrl: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80'
