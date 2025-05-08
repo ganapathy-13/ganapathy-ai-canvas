@@ -11,25 +11,22 @@ const ProjectsSection = () => {
       title: 'kids Learning app',
       description: 'Developed an interactive learning app for kindergarten students using Python (Pandas, NumPy, Matplotlib, Tkinter), MySQL, and VS Code. The project focused on learning GUI concepts and database integration.',
       techStack: ['Python', 'TKinter', 'MySQL', 'VS Code'],
-      githubLink: '#',
-      demoLink: '#',
+      githubLink: 'https://github.com/ganapathy-13/demo-kids-app-python-',
       imageUrl: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80'
     },
     {
-      title: 'TranslateAuto',
-      description: 'Built an AI-based translator app capable of real-time multilingual text translation using Python (sklearn, Scipy, Scikit-learn), HTML/CSS, Webpack, and Git. The app leverages NLP techniques for efficient language processing.',
-      techStack: ['Python', 'scipy','VS Code', 'Scikit-learn', 'Flask'],
-      githubLink: '#',
-      demoLink: '#',
-      imageUrl: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80'
+      title: 'Voice-up App',
+      description: 'A web app for citizens to file and track complaints, with AI-powered features for chat support and complaint categorization. It includes user authentication, complaint prioritization, status tracking, and an admin dashboard. ',
+      techStack: ['Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'.],
+      githubLink: '',
+      imageUrl: 'https://blog.ipleaders.in/wp-content/uploads/2020/10/Right-to-Information-Act-2005-1.jpg'
     },
     {
       title: 'Automated Timetable Generator',
       description: 'Designed an AI-powered timetable scheduling system for educational institutions. Implemented optimization techniques to minimize scheduling conflicts and ensure efficient resource allocation.',
       techStack: ['Python', 'Flask', 'Bcrypt', 'SQLite',''],
       githubLink: '#',
-      demoLink: '#',
-      imageUrl: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80'
+      imageUrl: 'htps://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80'
     },
     {
       title: 'Smart Home Controller',
