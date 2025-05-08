@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 221 83% 53%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -35,19 +38,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -97,5 +93,50 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+  
+  section {
+    @apply py-16 px-4 md:px-8;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-8 text-ai-gray;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 60px;
+    height: 4px;
+    @apply bg-ai-teal;
+  }
+  
+  .container-custom {
+    @apply w-full max-w-6xl mx-auto;
+  }
+  
+  .project-card {
+    @apply transition-all duration-300;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .skill-item {
+    @apply transition-transform duration-300 hover:scale-110;
+  }
+  
+  .nav-link {
+    @apply transition-all duration-300 hover:text-ai-teal;
   }
 }
