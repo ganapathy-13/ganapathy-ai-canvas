@@ -15,7 +15,7 @@ const ContactSection = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      link: 'https://linkedin.com/in/ganapathy',
+      link: 'https://linkedin.com/in/ganapathy-ba915125a',
       color: 'bg-blue-600 hover:bg-blue-700'
     },
     {

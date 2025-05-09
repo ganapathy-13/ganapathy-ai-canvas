@@ -5,7 +5,7 @@ import { Card, CardContent } from '@/components/ui/card';
 const SkillsSection = () => {
   const skills = [
     { name: 'Python', level: 80, icon: '🐍' },
-    { name: 'C++', level: 45, icon: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pluralsight.com%2Fpaths%2Fc-plus-plus&psig=AOvVaw2Vs4NS1Jhol00dGLuwzPoG&ust=1746848807504000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKiFtIq9lY0DFQAAAAAdAAAAABAE' },
+    { name: 'Java', level: 40, icon: '☕️' },
     { name: 'Machine Learning', level: 60, icon: '🧠' },
     { name: 'Flask', level: 50, icon: '🌐' },
     { name: 'HTML', level: 80, icon: '📝' },
