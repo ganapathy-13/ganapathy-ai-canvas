@@ -39,9 +39,6 @@ const HeroSection = () => {
                   alt="Profile"
                   className="w-full h-full object-cover rounded-full"
                 />
-              </div>
-                <span className="text-4xl font-bold text-white">GA</span>
-              </div>
             </div>
           </div>
         </div>
