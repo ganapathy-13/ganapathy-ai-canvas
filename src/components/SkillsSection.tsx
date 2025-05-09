@@ -4,13 +4,14 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const SkillsSection = () => {
   const skills = [
-    { name: 'Python', level: 90, icon: '🐍' },
-    { name: 'Machine Learning', level: 85, icon: '🧠' },
-    { name: 'Flask', level: 80, icon: '🌐' },
-    { name: 'HTML', level: 85, icon: '📝' },
-    { name: 'CSS', level: 80, icon: '🎨' },
-    { name: 'Git', level: 75, icon: '📊' },
-    { name: 'Statistics', level: 85, icon: '📈' },
+    { name: 'Python', level: 80, icon: '🐍' },
+    { name: 'C++', level: 45, icon: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pluralsight.com%2Fpaths%2Fc-plus-plus&psig=AOvVaw2Vs4NS1Jhol00dGLuwzPoG&ust=1746848807504000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKiFtIq9lY0DFQAAAAAdAAAAABAE' },
+    { name: 'Machine Learning', level: 60, icon: '🧠' },
+    { name: 'Flask', level: 50, icon: '🌐' },
+    { name: 'HTML', level: 80, icon: '📝' },
+    { name: 'CSS', level: 65, icon: '🎨' },
+    { name: 'Git', level: 70, icon: '📊' },
+    { name: 'Statistics', level: 65, icon: '📈' },
   ];
 
   return (

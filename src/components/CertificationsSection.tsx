@@ -9,21 +9,21 @@ const CertificationsSection = () => {
     {
       title: 'Statistics 101',
       issuer: 'IBM Cognitive Class',
-      date: 'January 2023',
+      date: 'March 2025',
       credentialLink: '#',
       description: 'Comprehensive training in statistical methods and analysis, covering probability, hypothesis testing, and regression analysis.'},
     {
       title: 'Python for Data Science and AI',
       issuer: 'IBM Cognitive Class',
-      date: 'January 2023',
+      date: 'January 2025',
       credentialLink: '#',
-      description: 'Comprehensive training in statistical methods and analysis, covering probability, hypothesis testing, and regression analysis.'
+      description: 'This course introduces the fundamentals of data analysis using Python. Students will learn how to manipulate, clean, and visualize data using libraries like Pandas, NumPy, Matplotlib, and Seaborn. The course also covers basic statistics and exploratory data analysis techniques, preparing learners to draw meaningful insights from real-world datasets.'
     },{
-      title: 'Statistics 101',
-      issuer: 'IBM Cognitive Class',
-      date: 'January 2023',
+      title: 'Joy of Computing Using Python',
+      issuer: 'NPTEL',
+      date: 'May 2025',
       credentialLink: '#',
-      description: 'Comprehensive training in statistical methods and analysis, covering probability, hypothesis testing, and regression analysis.'
+      description: 'An introductory course that makes learning Python fun through creative projects, problem-solving, and real-world applications.'
     }
   ];
 
@@ -51,17 +51,6 @@ const CertificationsSection = () => {
                 <p>{cert.description}</p>
               </CardContent>
               <CardFooter>
-                <Button asChild variant="outline" size="sm" className="w-full">
-                  <a 
-                    href={cert.credentialLink} 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2"
-                  >
-                    <span>View Certificate</span>
-                    <ExternalLink size={14} />
-                  </a>
-                </Button>
               </CardFooter>
             </Card>
           ))}

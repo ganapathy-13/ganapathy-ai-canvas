@@ -9,19 +9,19 @@ const ContactSection = () => {
     {
       name: 'GitHub',
       icon: Github,
-      link: 'https://github.com/yourusername',
+      link: 'https://github.com/ganapathy-13',
       color: 'bg-gray-900 hover:bg-gray-800'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      link: 'https://linkedin.com/in/yourusername',
+      link: 'https://linkedin.com/in/ganapathy',
       color: 'bg-blue-600 hover:bg-blue-700'
     },
     {
       name: 'Email',
       icon: Mail,
-      link: 'mailto:yourname@example.com',
+      link: 'ganapathyk2004@gmail.com',
       color: 'bg-red-500 hover:bg-red-600'
     }
   ];
