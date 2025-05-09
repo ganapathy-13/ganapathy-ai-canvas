@@ -33,7 +33,13 @@ const HeroSection = () => {
           <div className="hidden md:flex justify-end animate-fade-left">
             <div className="relative">
               <div className="absolute inset-0 bg-ai-teal/20 rounded-full blur-3xl"></div>
-              <div className="relative bg-gradient-to-br from-ai-teal/80 to-blue-500/80 w-80 h-80 rounded-full flex items-center justify-center">
+              <div className="relative bg-gradient-to-br from-ai-teal/80 to-blue-500/80 w-80 h-80 rounded-full flex items-center justify-center overflow-hidden">
+                <img
+                  src="profile_images/Screenshot 2025-05-09 at 09.52.03.png"
+                  alt="Profile"
+                  className="w-full h-full object-cover rounded-full"
+                />
+              </div>
                 <span className="text-4xl font-bold text-white">GA</span>
               </div>
             </div>
