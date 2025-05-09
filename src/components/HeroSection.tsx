@@ -35,7 +35,7 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-ai-teal/20 rounded-full blur-3xl"></div>
               <div className="relative bg-gradient-to-br from-ai-teal/80 to-blue-500/80 w-80 h-80 rounded-full flex items-center justify-center overflow-hidden">
                 <img
-                  src="/public/WhatsApp Image 2025-04-26 at 13.26.39.jpeg"
+                  src="/WhatsApp Image 2025-04-26 at 13.26.39.jpeg"
                   alt="Profile"
                   className="w-full h-full object-cover rounded-full"
                 />
