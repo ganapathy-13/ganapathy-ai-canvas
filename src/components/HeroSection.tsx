@@ -41,6 +41,7 @@ const HeroSection = () => {
                 />
                 <span className="text-4xl font-bold text-white"></span>
             </div>
+              </div>
           </div>
         </div>
     </section>
