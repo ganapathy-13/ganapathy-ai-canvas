@@ -8,6 +8,7 @@ const ResumeSection: React.FC = () => {
     alert('The resume will be uploaded soon.');
   };
 
+const ResumeSection: React.FC = () => {
   return (
     <section id="resume" className="bg-ai-teal text-white py-20">
       <div className="container-custom text-center">
@@ -22,7 +23,12 @@ const ResumeSection: React.FC = () => {
           size="lg" 
           className="bg-white text-ai-teal hover:bg-white/90 border-white"
         >
-          <a href="#" onClick={handleDownloadClick} className="flex items-center gap-2">
+          {/* Assuming resume.pdf is in /public folder */}
+          <a 
+            href="/resume.pdf" 
+            download 
+            className="flex items-center gap-2"
+          >
             <FileDown className="w-5 h-5" />
             Download Resume
           </a>
